@@ -4,7 +4,10 @@ const ContactHelmet = () => {
     return (
         <Helmet>
             <title>Contact Us | RCC Colab Solutions, Inc.</title>
-
+            <meta
+                name='description'
+                content='Get in touch with us for personalized IT software and consulting solutions. We are here to help you achieve your'
+            />
             <link
                 rel='canonical'
                 href='https://rcccolabsolutions.com/contactus'

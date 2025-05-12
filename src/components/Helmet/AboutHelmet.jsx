@@ -4,7 +4,11 @@ const AboutHelmet = () => {
     return (
         <Helmet>
             <title>About Us | RCC Colab Slolutions, Inc.</title>
-            <link rel='canonical' href='https://rccglass-aluminum.com/aboutus' />
+            <meta
+                name='description'
+                content='RCC Colab Solutions is an IT solutions provider driven by a deep commitment to driving digital transformation and operational excellence for businesses across various industries. '
+            />
+            <link rel='canonical' href='https://rcccolabsolutions.com/aboutus' />
             <meta property='og:type' content='website' />
             <meta property='og:url' content='https://rcccolabsolutions.com/aboutus' />
             <meta property='og:title' content='RCC Colab Solutions, Inc.' />

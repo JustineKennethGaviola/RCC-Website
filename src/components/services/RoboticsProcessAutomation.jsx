@@ -21,8 +21,7 @@ const RoboticsProcessAutomation = () => {
                         streamline operations and reduce costs. Robotics Process
                         Automation (RPA) has emerged as a powerful solution to
                         achieve these goals by automating repetitive and
-                        rule-based tasks. At RCC Colab Solutions, we offer
-                        comprehensive RPA services designed to help your
+                        rule-based tasks. We offer comprehensive RPA services designed to help your
                         business unlock the full potential of automation.
                     </p>
                 </div>
