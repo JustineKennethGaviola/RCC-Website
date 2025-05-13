@@ -11,6 +11,9 @@ import SoftwareDev from '../assets/software-development.jpg';
 import StaffAugmentation from '../assets/staff-augmentation.jpg';
 import HomeHelmet from '../components/Helmet/HomeHelmet';
 import XLContainer from '../components/XLContainer';
+import MultiSysLogo from '../assets/msys-logo.png';
+import YalamChili from '../assets/yalamanchili.png';
+import SemiraraCorp from '../assets/semirara.png';
 
 const Home = () => {
     const navigate = useNavigate();
@@ -427,7 +430,43 @@ const Home = () => {
                     </div>
                 </XLContainer>
             </div>
-
+            <div className='bg-gray-100 py-20'>
+                <XLContainer>
+                    <div className='flex flex-col items-center'>
+                        <Fade direction='up' duration={300} triggerOnce>
+                            <h1 className='text-3xl md:text-4xl lg:text-5xl text-gray-900 font-bold text-center pb-12'>
+                                Our Clients
+                            </h1>
+                        </Fade>
+                        <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-8 items-center'>
+                            {/* Replace these placeholders with actual client logos or names */}
+                            <div className='flex justify-center'>
+                                <img
+                                    src={MultiSysLogo}
+                                    alt='Client 1'
+                                    className='h-22 object-contain'
+                                />
+                            </div>
+                            <div className='flex justify-center'>
+                                <img
+                                    src={YalamChili}
+                                    alt='Client 2'
+                                    className='h-22 object-contain'
+                                />
+                            </div>
+                            <div className='flex justify-center'>
+                                <img
+                                    src={SemiraraCorp}
+                                    alt='Client 2'
+                                    className='h-22 object-contain'
+                                />
+                            </div>
+                            
+                            {/* Add more client logos as needed */}
+                        </div>
+                    </div>
+                </XLContainer>
+            </div>
             <div className='h-fit'>
                 <XLContainer>
                     <div className='flex flex-col items-center'>
@@ -453,6 +492,11 @@ const Home = () => {
                         'polygon(50% 40%, 100% 0,  100% 100%,   0 100%, 0 0)',
                 }}
             ></div>
+                       
+            
+           
+            
+           
         </div>
     );
 };
