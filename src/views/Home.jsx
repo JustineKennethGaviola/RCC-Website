@@ -438,29 +438,26 @@ const Home = () => {
                                 Our Clients
                             </h1>
                         </Fade>
-                        <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-8 items-center'>
+                        <div className='grid grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-5 items-center'>
                             {/* Replace these placeholders with actual client logos or names */}
-                            <div className='flex justify-center'>
-                                <img
-                                    src={MultiSysLogo}
-                                    alt='Client 1'
-                                    className='h-22 object-contain'
-                                />
-                            </div>
-                            <div className='flex justify-center'>
-                                <img
-                                    src={YalamChili}
-                                    alt='Client 2'
-                                    className='h-22 object-contain'
-                                />
-                            </div>
-                            <div className='flex justify-center'>
-                                <img
-                                    src={SemiraraCorp}
-                                    alt='Client 2'
-                                    className='h-22 object-contain'
-                                />
-                            </div>
+                            <Zoom>
+                                <div className='flex justify-center'>
+                                    <img
+                                        src={MultiSysLogo}
+                                        alt='Client 1'
+                                        className='h-20 object-contain'
+                                    />
+                                </div>
+                                <div className='flex justify-center'>
+                                    <img
+                                        src={YalamChili}
+                                        alt='Client 2'
+                                        className='h-20 object-contain'
+                                    />
+                                </div>
+                            </Zoom>
+                            
+                            
                             
                             {/* Add more client logos as needed */}
                         </div>
