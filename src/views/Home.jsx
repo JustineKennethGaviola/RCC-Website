@@ -445,7 +445,7 @@ const Home = () => {
                                     <img
                                         src={MultiSysLogo}
                                         alt='Client 1'
-                                        className='h-32 object-contain'
+                                        className='h-44 object-contain'
                                     />
                                 </div>
                                 <div className='flex justify-center'>
