@@ -94,7 +94,7 @@ const Services = () => {
                       <div className="bg-white p-6 rounded-lg shadow-md border-t-4 border-accent hover:shadow-lg transition-all transform group-hover:scale-105">
                         <div className="flex items-center mb-4">
                           <FaRocket className="text-accent text-2xl mr-3" />
-                          <h2 className="text-lg font-bold text-gray-800">
+                          <h2 className="text-lg font-black text-gray-800">
                             Application Modernization
                           </h2>
                         </div>
@@ -123,7 +123,7 @@ const Services = () => {
                       <div className="bg-white p-6 rounded-lg shadow-md border-t-4 border-accent hover:shadow-lg transition-all transform group-hover:scale-105">
                         <div className="flex items-center mb-4">
                           <FaCode className="text-accent text-2xl mr-3" />
-                          <h2 className="text-lg font-bold text-gray-800">
+                          <h2 className="text-lg font-black text-gray-800">
                             Software Development
                           </h2>
                         </div>
@@ -152,7 +152,7 @@ const Services = () => {
                       <div className="bg-white p-6 rounded-lg shadow-md border-t-4 border-accent hover:shadow-lg transition-all transform group-hover:scale-105">
                         <div className="flex items-center mb-4">
                           <FaChartLine className="text-accent text-2xl mr-3" />
-                          <h2 className="text-lg font-bold text-gray-800">
+                          <h2 className="text-lg font-black text-gray-800">
                             IT Strategy & Consulting
                           </h2>
                         </div>
@@ -181,7 +181,7 @@ const Services = () => {
                       <div className="bg-white p-6 rounded-lg shadow-md border-t-4 border-accent hover:shadow-lg transition-all transform group-hover:scale-105">
                         <div className="flex items-center mb-4">
                           <FaRobot className="text-accent text-2xl mr-3" />
-                          <h2 className="text-lg font-bold text-gray-800">
+                          <h2 className="text-lg font-black text-gray-800">
                             RPA
                           </h2>
                         </div>
@@ -210,7 +210,7 @@ const Services = () => {
                       <div className="bg-white p-6 rounded-lg shadow-md border-t-4 border-accent hover:shadow-lg transition-all transform group-hover:scale-105">
                         <div className="flex items-center mb-4">
                           <FaUserPlus className="text-accent text-2xl mr-3" />
-                          <h2 className="text-lg font-bold text-gray-800">
+                          <h2 className="text-lg font-black text-gray-800">
                             Staff Augmentation
                           </h2>
                         </div>
@@ -239,7 +239,7 @@ const Services = () => {
                       <div className="bg-white p-6 rounded-lg shadow-md border-t-4 border-accent hover:shadow-lg transition-all transform group-hover:scale-105">
                         <div className="flex items-center mb-4">
                           <FaTools className="text-accent text-2xl mr-3" />
-                          <h2 className="text-lg font-bold text-gray-800">
+                          <h2 className="text-lg font-black text-gray-800">
                             Support & Maintenance
                           </h2>
                         </div>

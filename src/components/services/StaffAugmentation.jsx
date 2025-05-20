@@ -142,7 +142,7 @@ const StaffAugmentation = () => {
                         clipRule="evenodd"
                       />
                     </svg>
-                    <span>1-2 weeks to onboard</span>
+                    <span>3-4 weeks to onboard</span>
                   </li>
                   <li className="flex items-start">
                     <svg

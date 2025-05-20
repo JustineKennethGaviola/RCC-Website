@@ -13,8 +13,8 @@ import HomeHelmet from "../components/Helmet/HomeHelmet";
 import XLContainer from "../components/XLContainer";
 import MultiSysLogo from "../assets/msys-logo.png";
 import YalamChili from "../assets/yalamanchili.png";
-import SemiraraCorp from "../assets/semirara.png";
 import WorldLinks from "../assets/WorldLinks.png";
+import DPOLogo from "../assets/dpo.png";
 
 const Home = () => {
   const navigate = useNavigate();
@@ -394,7 +394,7 @@ const Home = () => {
               <div className="flex items-center justify-center mb-12">
                 <div className="h-px w-16 bg-gradient-to-r from-transparent to-accent/40 rounded"></div>
                 <h2 className="text-2xl md:text-3xl text-accent font-semibold px-6 relative">
-                  Trusted Clients
+                  Our Clients
                 </h2>
                 <div className="h-px w-16 bg-gradient-to-l from-transparent to-accent/40 rounded"></div>
               </div>
@@ -430,7 +430,7 @@ const Home = () => {
               <div className="flex items-center justify-center -mb-9 ">
                 <div className="h-px w-16 bg-gradient-to-r from-transparent to-accent/40 rounded"></div>
                 <h2 className="text-2xl md:text-3xl text-accent font-semibold px-6 relative">
-                  Strategic Partners
+                  Strategic Partner
                 </h2>
                 <div className="h-px w-16 bg-gradient-to-l from-transparent to-accent/40 rounded"></div>
               </div>
@@ -442,6 +442,32 @@ const Home = () => {
                   <img
                     src={WorldLinks}
                     alt="WorldLinks"
+                    className="h-full object-contain hover:scale-105 transition-all duration-500"
+                  />
+                </div>
+              </Zoom>
+            </div>
+          </div>
+
+          {/* Certificate Section with premium styling */}
+          <div className="w-full relative mt-10">
+            {/* Section heading with decorative elements */}
+            <Fade direction="up" triggerOnce>
+              <div className="flex items-center justify-center -mb-9 ">
+                <div className="h-px w-16 bg-gradient-to-r from-transparent to-accent/40 rounded"></div>
+                <h2 className="text-2xl md:text-3xl text-accent font-semibold px-6 relative">
+                  Certificate
+                </h2>
+                <div className="h-px w-16 bg-gradient-to-l from-transparent to-accent/40 rounded"></div>
+              </div>
+            </Fade>
+
+            <div className="flex justify-center px-4">
+              <Zoom cascade damping={0.1} delay={300} triggerOnce>
+                <div className="flex justify-center h-full mb-4">
+                  <img
+                    src={DPOLogo}
+                    alt="DPO Certificate"
                     className="h-full object-contain hover:scale-105 transition-all duration-500"
                   />
                 </div>

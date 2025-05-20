@@ -12,6 +12,7 @@ import {
   FaServer,
   FaVial,
   FaCloudUploadAlt,
+  FaChartLine,
 } from "react-icons/fa";
 import ReactIcon from "../../assets/react.svg";
 import HTML5Icon from "../../assets/html5.svg";
@@ -45,6 +46,22 @@ import KubernetesIcon from "../../assets/kubernetes.svg";
 import TerraformIcon from "../../assets/terraform.svg";
 import JenkinsIcon from "../../assets/jenkins.svg";
 import CloudIcon from "../../assets/cloud.svg";
+import CSSIcon from "../../assets/css.svg";
+import SwiftIcon from "../../assets/swift.svg";
+import MySQLIcon from "../../assets/mysql.svg";
+import GrafanaIcon from "../../assets/grafana.svg";
+import KibanaIcon from "../../assets/kibana.svg";
+import PowerBIIcon from "../../assets/powerbi.svg";
+import TableauIcon from "../../assets/tableau.svg";
+import SSRSIcon from "../../assets/ssrs.png";
+import SonarqubeIcon from "../../assets/sonarqube.svg";
+import GitlabIcon from "../../assets/gitlab.svg";
+import BitbucketIcon from "../../assets/bitbucket.svg";
+import AnsibleIcon from "../../assets/ansible.svg";
+import AzureIcon from "../../assets/azure.svg";
+import AWSIcon from "../../assets/aws.svg";
+import ExpressjsIcon from "../../assets/expressjs.svg";
+import TestFairyIcon from "../../assets/testfairy.png";
 
 const SoftwareDevelopment = () => {
   // For the technology stack section
@@ -55,7 +72,6 @@ const SoftwareDevelopment = () => {
   const techStacksData = {
     frontend: {
       name: "Frontend Development",
-      description: "Creating responsive and intuitive user interfaces",
       icon: <FaCode className="text-blue-500" />,
       technologies: [
         {
@@ -63,8 +79,12 @@ const SoftwareDevelopment = () => {
           icon: ReactIcon,
         },
         {
-          name: "HTML5/CSS3",
+          name: "HTML5",
           icon: HTML5Icon,
+        },
+        {
+          name: "CSS3",
+          icon: CSSIcon,
         },
         {
           name: "JavaScript",
@@ -78,12 +98,15 @@ const SoftwareDevelopment = () => {
     },
     backend: {
       name: "Backend & API",
-      description: "Building robust server-side applications and services",
       icon: <FaServer className="text-green-500" />,
       technologies: [
         {
           name: "Node.js",
           icon: NodeIcon,
+        },
+        {
+          name: "Express.js",
+          icon: ExpressjsIcon,
         },
         {
           name: "Python",
@@ -109,7 +132,6 @@ const SoftwareDevelopment = () => {
     },
     mobile: {
       name: "Mobile Applications",
-      description: "Developing native and cross-platform mobile experiences",
       icon: <FaMobile className="text-purple-500" />,
       technologies: [
         {
@@ -132,11 +154,14 @@ const SoftwareDevelopment = () => {
           name: "Android",
           icon: AndroidIcon,
         },
+        {
+          name: "Swift",
+          icon: SwiftIcon,
+        },
       ],
     },
     database: {
-      name: "Database Solutions",
-      description: "Managing data with optimal storage and retrieval systems",
+      name: "Database",
       icon: <FaDatabase className="text-red-500" />,
       technologies: [
         {
@@ -163,11 +188,40 @@ const SoftwareDevelopment = () => {
           name: "Oracle",
           icon: OracleIcon,
         },
+        {
+          name: "MySQL",
+          icon: MySQLIcon,
+        },
+      ],
+    },
+    analytics: {
+      name: "Analytics",
+      icon: <FaChartLine className="text-cyan-500" />,
+      technologies: [
+        {
+          name: "Grafana",
+          icon: GrafanaIcon,
+        },
+        {
+          name: "Kibana",
+          icon: KibanaIcon,
+        },
+        {
+          name: "Power BI",
+          icon: PowerBIIcon,
+        },
+        {
+          name: "Tableau",
+          icon: TableauIcon,
+        },
+        {
+          name: "SSRS",
+          icon: SSRSIcon,
+        },
       ],
     },
     testing: {
       name: "QA & Testing",
-      description: "Ensuring software quality and performance",
       icon: <FaVial className="text-amber-500" />,
       technologies: [
         {
@@ -190,15 +244,22 @@ const SoftwareDevelopment = () => {
           name: "JMeter",
           icon: JMeterIcon,
         },
+        {
+          name: "SonarQube",
+          icon: SonarqubeIcon,
+        },
+        {
+          name: "TestFairy",
+          icon: TestFairyIcon,
+        },
       ],
     },
     devops: {
       name: "DevOps",
-      description: "Streamlining development operations and deployment",
       icon: <FaCloudUploadAlt className="text-indigo-500" />,
       technologies: [
         {
-          name: "GitHub/GitLab",
+          name: "GitHub",
           icon: GitHubIcon,
         },
         {
@@ -218,8 +279,28 @@ const SoftwareDevelopment = () => {
           icon: JenkinsIcon,
         },
         {
-          name: "AWS/Azure/GCP",
+          name: "GCP",
           icon: CloudIcon,
+        },
+        {
+          name: "AWS",
+          icon: AWSIcon,
+        },
+        {
+          name: "Azure",
+          icon: AzureIcon,
+        },
+        {
+          name: "GitLab",
+          icon: GitlabIcon,
+        },
+        {
+          name: "Bitbucket",
+          icon: BitbucketIcon,
+        },
+        {
+          name: "Ansible",
+          icon: AnsibleIcon,
         },
       ],
     },
@@ -463,7 +544,7 @@ const SoftwareDevelopment = () => {
         {/* Development Process Section */}
         <div className="mt-16">
           <h2 className="text-2xl text-accent font-bold mb-6">
-            Our Development Process
+            Our Software Development Process
           </h2>
           <p className="text-lg text-gray-700 mb-8">
             We follow a structured approach to software development that ensures
@@ -533,6 +614,28 @@ const SoftwareDevelopment = () => {
                         </strong>{" "}
                         We provide thorough documentation and training to ensure
                         a smooth transition and user adoption.
+                      </div>
+                    )}
+                    {i === 5 && (
+                      <div className="mt-4 p-4 bg-blue-50 rounded-lg text-sm border-l-4 border-blue-500">
+                        <strong className="text-blue-700 block mb-1">
+                          Our approach:
+                        </strong>{" "}
+                        We use a structured deployment checklist, perform
+                        pre-launch verification, and provide around-the-clock
+                        support during the critical launch window to ensure a
+                        successful transition to production.
+                      </div>
+                    )}
+                    {i === 6 && (
+                      <div className="mt-4 p-4 bg-blue-50 rounded-lg text-sm border-l-4 border-blue-500">
+                        <strong className="text-blue-700 block mb-1">
+                          Our approach:
+                        </strong>{" "}
+                        We offer flexible support packages with defined SLAs,
+                        proactive monitoring, and regular maintenance schedules
+                        to ensure your application remains secure, up-to-date,
+                        and aligned with your evolving business needs.
                       </div>
                     )}
                   </div>
