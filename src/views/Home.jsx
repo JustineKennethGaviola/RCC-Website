@@ -384,47 +384,73 @@ const Home = () => {
           </div>
         </XLContainer>
       </div>
-      <div className="bg-gray-100 py-20">
-        <XLContainer>
-          <div className="flex flex-col items-center">
-            <Fade direction="up" duration={300} triggerOnce>
-              <h1 className="text-3xl md:text-4xl lg:text-5xl text-gray-900 font-bold text-center pb-12">
-                Our Clients
-              </h1>
+
+      <XLContainer>
+        <div className="flex flex-col items-center z-10 relative">
+          {/* Clients Section with premium card design */}
+          <div className="w-full mb-28 relative">
+            {/* Section heading with decorative elements */}
+            <Fade direction="up" triggerOnce>
+              <div className="flex items-center justify-center mb-12">
+                <div className="h-px w-16 bg-gradient-to-r from-transparent to-accent/40 rounded"></div>
+                <h2 className="text-2xl md:text-3xl text-accent font-semibold px-6 relative">
+                  Trusted Clients
+                </h2>
+                <div className="h-px w-16 bg-gradient-to-l from-transparent to-accent/40 rounded"></div>
+              </div>
             </Fade>
-            <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-8 items-center justify-items-center">
-              {/* Client logos */}
-              <Zoom cascade damping={0.2} triggerOnce>
-                <div className="flex justify-center w-full">
+
+            <div className="flex flex-row justify-center items-center gap-32 px-4 w-full max-w-3xl mx-auto">
+              <Zoom cascade damping={0.1} triggerOnce>
+                <div className="flex justify-end h-28 mb-2 px-2">
                   <img
                     src={MultiSysLogo}
                     alt="MultiSys"
-                    className="h-32 object-contain hover:scale-110 transition-all duration-300"
+                    className="h-full object-contain hover:scale-105 transition-all duration-500"
                   />
                 </div>
               </Zoom>
-              <Zoom cascade damping={0.2} delay={200} triggerOnce>
-                <div className="flex justify-center w-full">
+
+              <Zoom cascade damping={0.1} delay={200} triggerOnce>
+                <div className="flex justify-start h-24 mb-2 px-2">
                   <img
                     src={YalamChili}
                     alt="Yalamanchili"
-                    className="h-24 object-contain hover:scale-110 transition-all duration-300"
-                  />
-                </div>
-              </Zoom>
-              <Zoom cascade damping={0.2} delay={400} triggerOnce>
-                <div className="flex justify-center w-full">
-                  <img
-                    src={WorldLinks}
-                    alt="WorldLinks"
-                    className="h-72 object-contain hover:scale-110 transition-all duration-300"
+                    className="h-full object-contain hover:scale-105 transition-all duration-500"
                   />
                 </div>
               </Zoom>
             </div>
           </div>
-        </XLContainer>
-      </div>
+
+          {/* Strategic Partners Section with premium styling */}
+          <div className="w-full relative">
+            {/* Section heading with decorative elements */}
+            <Fade direction="up" triggerOnce>
+              <div className="flex items-center justify-center -mb-9 ">
+                <div className="h-px w-16 bg-gradient-to-r from-transparent to-accent/40 rounded"></div>
+                <h2 className="text-2xl md:text-3xl text-accent font-semibold px-6 relative">
+                  Strategic Partners
+                </h2>
+                <div className="h-px w-16 bg-gradient-to-l from-transparent to-accent/40 rounded"></div>
+              </div>
+            </Fade>
+
+            <div className="flex justify-center px-4">
+              <Zoom cascade damping={0.1} delay={300} triggerOnce>
+                <div className="flex justify-center h-72 mb-4">
+                  <img
+                    src={WorldLinks}
+                    alt="WorldLinks"
+                    className="h-full object-contain hover:scale-105 transition-all duration-500"
+                  />
+                </div>
+              </Zoom>
+            </div>
+          </div>
+        </div>
+      </XLContainer>
+
       <div className="h-fit">
         <XLContainer>
           <div className="flex flex-col items-center">
