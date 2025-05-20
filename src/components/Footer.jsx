@@ -125,7 +125,7 @@ const Footer = () => {
             <Link to={"privacypolicy"}>Privacy Policy</Link>
           </li>
         </ul>
-        <p> © 2024 RCC Colab Solutions, Inc.</p>
+        <p> © 2025 RCC Colab Solutions, Inc.</p>
       </div>
     </div>
   );
