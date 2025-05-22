@@ -453,7 +453,7 @@ const Home = () => {
           <div className="w-full relative mt-10">
             {/* Section heading with decorative elements */}
             <Fade direction="up" triggerOnce>
-              <div className="flex items-center justify-center -mb-9 ">
+              <div className="flex items-center justify-center -mb-2">
                 <div className="h-px w-16 bg-gradient-to-r from-transparent to-accent/40 rounded"></div>
                 <h2 className="text-2xl md:text-3xl text-accent font-semibold px-6 relative">
                   Certificate
@@ -468,7 +468,7 @@ const Home = () => {
                   <img
                     src={DPOLogo}
                     alt="DPO Certificate"
-                    className="h-full object-contain hover:scale-105 transition-all duration-500"
+                    className="h-96 object-contain hover:scale-105 transition-all duration-500"
                   />
                 </div>
               </Zoom>
