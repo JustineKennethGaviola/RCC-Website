@@ -619,7 +619,7 @@ const SoftwareDevelopment = () => {
                         automated unit tests, integration testing, and
                         performance validation, followed by structured
                         deployment with staging environments and user training
-                        for smooth production launches.
+                        for smooth production launches
                       </div>
                     )}
                     {i === 5 && (
