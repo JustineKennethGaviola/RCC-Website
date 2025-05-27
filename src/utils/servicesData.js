@@ -18,33 +18,28 @@ export const appModernization = [
 
 export const softwareDev = [
   {
-    title: "Requirement Analysis",
-    content: `This is a critical stage in creating a software program. Once finished gathering general requirements from the client, an analysis of the development scope should be determined and clearly stated. This phase provides a detailed outline of every component, the scope, the tasks of developers, and testing parameters to deliver a quality product.`,
+    title: "Planning",
+    content: `This initial phase establishes the project's foundation by defining scope, objectives, and feasibility. We conduct comprehensive cost-benefit analysis, resource estimation, and risk assessment. The team collaborates with stakeholders to gather high-level requirements, evaluate project viability from technical, operational, and financial perspectives, and create a detailed project roadmap with timelines and milestones.`,
+  },
+  {
+    title: "Analysis",
+    content: `During this critical phase, we conduct thorough requirements gathering through stakeholder interviews, surveys, and workshops. Our team analyzes both functional and non-functional requirements, documenting them in a comprehensive Software Requirements Specification (SRS) document. This phase ensures clear understanding of user expectations, system constraints, and acceptance criteria before moving forward.`,
   },
   {
     title: "Design",
-    content: `The architects and developers will collaborate to analyze the client's business requirements and design solutions that efficiently create the software. Stakeholders will discuss risk levels, team composition, applicable technologies, time, budget, project limitations, and architectural design.`,
+    content: `Our architects and senior developers create detailed system design based on the analyzed requirements. This includes defining software architecture, data structures, user interface design, system interfaces, and technology stack selection. We produce comprehensive design documents, database schemas, and technical specifications that serve as blueprints for the development phase.`,
   },
   {
-    title: "Development and Implementation",
-    content: `Developer code will be based on the product specifications and analyzed requirements agreed upon in the previous stages. Front-end developers build interfaces and back-ends, whereas database administrators create relevant data in the database. In addition, the programmers will test and review each other's code before deploying the product to an environment in the implementation stage.`,
+    title: "Implementation",
+    content: `In this phase, developers translate design specifications into functional code using selected programming languages and frameworks. The development follows established coding standards, best practices, and design patterns. We implement modular development approaches, conduct regular code reviews, and maintain version control to ensure code quality and maintainability throughout the development process.`,
   },
   {
-    title: "Testing",
-    content: `This stage aims to determine any errors or bugs in the software before delivering it to the users. In this stage, testers verify the product's functions to validate the functionality based on the requirements analysis document.`,
+    title: "Testing and Deployment",
+    content: `Our comprehensive testing strategy includes multiple testing levels: unit testing, integration testing, system testing, and user acceptance testing. We employ both manual and automated testing approaches to identify and resolve defects. Once testing is complete, we execute careful deployment to production environments with staging tests, user training, and rollback procedures to ensure smooth transition to live environment.`,
   },
   {
-    title: "Deployment",
-    content: `The development team will deploy the software once it is approved for release and is free of bugs. After the software's production version is released, the software development team forms a maintenance team to handle issues clients encounter while using the product.`,
-  },
-  {
-    title: "Go Live",
-    content:
-      "The Go Live phase involves deploying the application to production, conducting final checks, and ensuring seamless transition from development to live environment. We implement a comprehensive deployment strategy to minimize downtime and ensure all systems are functioning properly.",
-  },
-  {
-    title: "Maintenance and Support",
-    content: `Post-deployment, we provide ongoing maintenance and support services to ensure your software continues to operate at peak performance. This includes regular updates, security patches, performance optimization, and addressing any issues that may arise.`,
+    title: "Maintenance",
+    content: `Post-deployment, we provide comprehensive maintenance services including bug fixes, performance optimization, security updates, and feature enhancements. Our support includes monitoring system performance, addressing user-reported issues, implementing change requests, and ensuring the software continues to meet evolving business needs and technology standards.`,
   },
 ];
 

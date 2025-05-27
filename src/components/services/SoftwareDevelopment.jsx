@@ -574,9 +574,9 @@ const SoftwareDevelopment = () => {
                         <strong className="text-blue-700 block mb-1">
                           Our approach:
                         </strong>{" "}
-                        We combine deep industry knowledge with technical
-                        expertise to understand your business challenges and
-                        define clear objectives.
+                        We conduct comprehensive feasibility studies combining
+                        market research, technical assessment, and financial
+                        analysis to ensure project success from the start.
                       </div>
                     )}
                     {i === 1 && (
@@ -584,8 +584,10 @@ const SoftwareDevelopment = () => {
                         <strong className="text-blue-700 block mb-1">
                           Our approach:
                         </strong>{" "}
-                        We create detailed specifications and utilize rapid
-                        prototyping to validate concepts early in the process.
+                        We employ stakeholder interviews, workshops, and
+                        prototyping to capture precise requirements and create
+                        detailed SRS documents that serve as the foundation for
+                        development.
                       </div>
                     )}
                     {i === 2 && (
@@ -593,9 +595,9 @@ const SoftwareDevelopment = () => {
                         <strong className="text-blue-700 block mb-1">
                           Our approach:
                         </strong>{" "}
-                        We use agile methodologies with 2-week sprints to ensure
-                        transparency and regular client feedback throughout
-                        development.
+                        We create scalable architectures using industry best
+                        practices, design patterns, and technology stacks that
+                        ensure long-term maintainability and performance.
                       </div>
                     )}
                     {i === 3 && (
@@ -603,8 +605,9 @@ const SoftwareDevelopment = () => {
                         <strong className="text-blue-700 block mb-1">
                           Our approach:
                         </strong>{" "}
-                        We employ automated testing frameworks and comprehensive
-                        QA processes to ensure reliability and performance.
+                        We follow agile methodologies with 2-week sprints,
+                        maintain strict coding standards, and conduct regular
+                        code reviews to ensure high-quality, maintainable code.
                       </div>
                     )}
                     {i === 4 && (
@@ -612,8 +615,11 @@ const SoftwareDevelopment = () => {
                         <strong className="text-blue-700 block mb-1">
                           Our approach:
                         </strong>{" "}
-                        We provide thorough documentation and training to ensure
-                        a smooth transition and user adoption.
+                        We implement comprehensive testing strategies including
+                        automated unit tests, integration testing, and
+                        performance validation, followed by structured
+                        deployment with staging environments and user training
+                        for smooth production launches.
                       </div>
                     )}
                     {i === 5 && (
@@ -621,21 +627,10 @@ const SoftwareDevelopment = () => {
                         <strong className="text-blue-700 block mb-1">
                           Our approach:
                         </strong>{" "}
-                        We use a structured deployment checklist, perform
-                        pre-launch verification, and provide around-the-clock
-                        support during the critical launch window to ensure a
-                        successful transition to production.
-                      </div>
-                    )}
-                    {i === 6 && (
-                      <div className="mt-4 p-4 bg-blue-50 rounded-lg text-sm border-l-4 border-blue-500">
-                        <strong className="text-blue-700 block mb-1">
-                          Our approach:
-                        </strong>{" "}
-                        We offer flexible support packages with defined SLAs,
-                        proactive monitoring, and regular maintenance schedules
-                        to ensure your application remains secure, up-to-date,
-                        and aligned with your evolving business needs.
+                        We provide proactive monitoring, regular maintenance
+                        schedules, and flexible support packages with defined
+                        SLAs to ensure your software evolves with your business
+                        needs.
                       </div>
                     )}
                   </div>
