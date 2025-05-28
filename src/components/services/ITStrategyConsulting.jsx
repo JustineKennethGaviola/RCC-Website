@@ -23,7 +23,7 @@ const ITStrategyConsulting = () => {
               </h3>
             </div>
             <div className="grid md:grid-cols-3 gap-6 mt-4">
-              <div className="p-4 bg-white rounded-lg shadow-sm border-l-4 border-blue-500">
+              <div className="p-4 bg-white rounded-lg shadow-sm border-l-4 border-accent">
                 <h4 className="font-semibold text-gray-800 mb-2">
                   Technology Alignment
                 </h4>
@@ -32,7 +32,7 @@ const ITStrategyConsulting = () => {
                   objectives and provide measurable ROI.
                 </p>
               </div>
-              <div className="p-4 bg-white rounded-lg shadow-sm border-l-4 border-green-500">
+              <div className="p-4 bg-white rounded-lg shadow-sm border-l-4 border-accent">
                 <h4 className="font-semibold text-gray-800 mb-2">
                   Competitive Advantage
                 </h4>
@@ -41,7 +41,7 @@ const ITStrategyConsulting = () => {
                   market opportunities.
                 </p>
               </div>
-              <div className="p-4 bg-white rounded-lg shadow-sm border-l-4 border-purple-500">
+              <div className="p-4 bg-white rounded-lg shadow-sm border-l-4 border-accent">
                 <h4 className="font-semibold text-gray-800 mb-2">
                   Digital Transformation
                 </h4>
@@ -72,7 +72,7 @@ const ITStrategyConsulting = () => {
               </p>
               {i === 0 && (
                 <div className="mt-4 ml-14 p-3 bg-blue-50 rounded text-sm">
-                  <strong className="text-blue-700">Key Deliverable:</strong>{" "}
+                  <strong className="text-accent">Key Deliverable:</strong>{" "}
                   Comprehensive assessment report identifying strengths,
                   weaknesses, opportunities, and threats in your current IT
                   landscape.
@@ -80,21 +80,21 @@ const ITStrategyConsulting = () => {
               )}
               {i === 1 && (
                 <div className="mt-4 ml-14 p-3 bg-blue-50 rounded text-sm">
-                  <strong className="text-blue-700">Key Deliverable:</strong>{" "}
+                  <strong className="text-accent">Key Deliverable:</strong>{" "}
                   Strategic IT roadmap aligned with your business goals, with
                   clear milestones and metrics for success.
                 </div>
               )}
               {i === 2 && (
                 <div className="mt-4 ml-14 p-3 bg-blue-50 rounded text-sm">
-                  <strong className="text-blue-700">Key Deliverable:</strong>{" "}
+                  <strong className="text-accent">Key Deliverable:</strong>{" "}
                   Detailed implementation plan with resource allocation,
                   timeline, and risk mitigation strategies.
                 </div>
               )}
               {i === 3 && (
                 <div className="mt-4 ml-14 p-3 bg-blue-50 rounded text-sm">
-                  <strong className="text-blue-700">Key Deliverable:</strong>{" "}
+                  <strong className="text-accent">Key Deliverable:</strong>{" "}
                   Performance monitoring framework with KPIs to track the
                   success of your IT strategy implementation.
                 </div>

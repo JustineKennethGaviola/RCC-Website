@@ -34,7 +34,7 @@ const RoboticsProcessAutomation = () => {
             unlock the full potential of automation.
           </p>
 
-          <div className="bg-gradient-to-r from-purple-600 to-indigo-700 text-white rounded-lg p-6 shadow-lg mb-8">
+          <div className="bg-gradient-to-r from-accent to-blue-700 text-white rounded-lg p-6 shadow-lg mb-8">
             <div className="flex items-center">
               <FaRobot className="text-4xl mr-4" />
               <div>
@@ -179,7 +179,7 @@ const RoboticsProcessAutomation = () => {
             RPA Implementation Results
           </h2>
           <div className="grid md:grid-cols-3 gap-6">
-            <div className="bg-white p-5 rounded-lg shadow-sm border-l-4 border-green-500">
+            <div className="bg-white p-5 rounded-lg shadow-sm border-l-4 border-accent">
               <h3 className="font-semibold text-gray-800 mb-3">
                 Financial Services
               </h3>
@@ -187,21 +187,21 @@ const RoboticsProcessAutomation = () => {
                 Automated loan processing reduced processing time from 3 days to
                 10 minutes with 100% accuracy.
               </p>
-              <div className="text-green-600 font-semibold">
+              <div className="text-accent font-semibold">
                 96% Time Reduction
               </div>
             </div>
-            <div className="bg-white p-5 rounded-lg shadow-sm border-l-4 border-blue-500">
+            <div className="bg-white p-5 rounded-lg shadow-sm border-l-4 border-accent">
               <h3 className="font-semibold text-gray-800 mb-3">Healthcare</h3>
               <p className="text-sm text-gray-600 mb-3">
                 Streamlined insurance claims processing, reducing manual effort
                 by 85% and errors by 99%.
               </p>
-              <div className="text-blue-600 font-semibold">
+              <div className="text-accent font-semibold">
                 68% Cost Savings
               </div>
             </div>
-            <div className="bg-white p-5 rounded-lg shadow-sm border-l-4 border-purple-500">
+            <div className="bg-white p-5 rounded-lg shadow-sm border-l-4 border-accent">
               <h3 className="font-semibold text-gray-800 mb-3">
                 Manufacturing
               </h3>
@@ -209,7 +209,7 @@ const RoboticsProcessAutomation = () => {
                 Automated order processing and inventory management, reducing
                 fulfillment time by 75%.
               </p>
-              <div className="text-purple-600 font-semibold">
+              <div className="text-accent font-semibold">
                 40% Productivity Increase
               </div>
             </div>

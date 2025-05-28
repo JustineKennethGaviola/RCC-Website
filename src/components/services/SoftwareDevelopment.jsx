@@ -405,9 +405,9 @@ const SoftwareDevelopment = () => {
             Software Development Options
           </h2>
           <div className="grid md:grid-cols-3 gap-6">
-            <div className="bg-gray-50 p-5 rounded-lg border-t-4 border-blue-500 flex flex-col h-full transition-all duration-300 hover:shadow-md hover:bg-white">
+            <div className="bg-gray-50 p-5 rounded-lg border-t-4 border-accent flex flex-col h-full transition-all duration-300 hover:shadow-md hover:bg-white">
               <div className="flex items-center mb-3">
-                <FaDesktop className="text-blue-500 text-xl mr-2" />
+                <FaDesktop className="text-accent text-xl mr-2" />
                 <h3 className="font-semibold text-gray-800">
                   Web Applications
                 </h3>
@@ -423,9 +423,9 @@ const SoftwareDevelopment = () => {
                 </div>
               </div>
             </div>
-            <div className="bg-gray-50 p-5 rounded-lg border-t-4 border-green-500 flex flex-col h-full transition-all duration-300 hover:shadow-md hover:bg-white">
+            <div className="bg-gray-50 p-5 rounded-lg border-t-4 border-accent flex flex-col h-full transition-all duration-300 hover:shadow-md hover:bg-white">
               <div className="flex items-center mb-3">
-                <FaMobile className="text-green-500 text-xl mr-2" />
+                <FaMobile className="text-accent text-xl mr-2" />
                 <h3 className="font-semibold text-gray-800">
                   Mobile Applications
                 </h3>
@@ -441,9 +441,9 @@ const SoftwareDevelopment = () => {
                 </div>
               </div>
             </div>
-            <div className="bg-gray-50 p-5 rounded-lg border-t-4 border-purple-500 flex flex-col h-full transition-all duration-300 hover:shadow-md hover:bg-white">
+            <div className="bg-gray-50 p-5 rounded-lg border-t-4 border-accent flex flex-col h-full transition-all duration-300 hover:shadow-md hover:bg-white">
               <div className="flex items-center mb-3">
-                <FaDatabase className="text-purple-500 text-xl mr-2" />
+                <FaDatabase className="text-accent text-xl mr-2" />
                 <h3 className="font-semibold text-gray-800">
                   Enterprise Systems
                 </h3>
@@ -570,8 +570,8 @@ const SoftwareDevelopment = () => {
                     </p>
 
                     {i === 0 && (
-                      <div className="mt-4 p-4 bg-blue-50 rounded-lg text-sm border-l-4 border-blue-500">
-                        <strong className="text-blue-700 block mb-1">
+                      <div className="mt-4 p-4 bg-blue-50 rounded-lg text-sm border-l-4 border-accent">
+                        <strong className="text-accent block mb-1">
                           Our approach:
                         </strong>{" "}
                         We conduct comprehensive feasibility studies combining
@@ -580,8 +580,8 @@ const SoftwareDevelopment = () => {
                       </div>
                     )}
                     {i === 1 && (
-                      <div className="mt-4 p-4 bg-blue-50 rounded-lg text-sm border-l-4 border-blue-500">
-                        <strong className="text-blue-700 block mb-1">
+                      <div className="mt-4 p-4 bg-blue-50 rounded-lg text-sm border-l-4 border-accent">
+                        <strong className="text-accent block mb-1">
                           Our approach:
                         </strong>{" "}
                         We employ stakeholder interviews, workshops, and
@@ -591,8 +591,8 @@ const SoftwareDevelopment = () => {
                       </div>
                     )}
                     {i === 2 && (
-                      <div className="mt-4 p-4 bg-blue-50 rounded-lg text-sm border-l-4 border-blue-500">
-                        <strong className="text-blue-700 block mb-1">
+                      <div className="mt-4 p-4 bg-blue-50 rounded-lg text-sm border-l-4 border-accent">
+                        <strong className="text-accent block mb-1">
                           Our approach:
                         </strong>{" "}
                         We create scalable architectures using industry best
@@ -601,8 +601,8 @@ const SoftwareDevelopment = () => {
                       </div>
                     )}
                     {i === 3 && (
-                      <div className="mt-4 p-4 bg-blue-50 rounded-lg text-sm border-l-4 border-blue-500">
-                        <strong className="text-blue-700 block mb-1">
+                      <div className="mt-4 p-4 bg-blue-50 rounded-lg text-sm border-l-4 border-accent">
+                        <strong className="text-accent block mb-1">
                           Our approach:
                         </strong>{" "}
                         We follow agile methodologies with 2-week sprints,
@@ -611,8 +611,8 @@ const SoftwareDevelopment = () => {
                       </div>
                     )}
                     {i === 4 && (
-                      <div className="mt-4 p-4 bg-blue-50 rounded-lg text-sm border-l-4 border-blue-500">
-                        <strong className="text-blue-700 block mb-1">
+                      <div className="mt-4 p-4 bg-blue-50 rounded-lg text-sm border-l-4 border-accent">
+                        <strong className="text-accent block mb-1">
                           Our approach:
                         </strong>{" "}
                         We implement comprehensive testing strategies including
@@ -623,8 +623,8 @@ const SoftwareDevelopment = () => {
                       </div>
                     )}
                     {i === 5 && (
-                      <div className="mt-4 p-4 bg-blue-50 rounded-lg text-sm border-l-4 border-blue-500">
-                        <strong className="text-blue-700 block mb-1">
+                      <div className="mt-4 p-4 bg-blue-50 rounded-lg text-sm border-l-4 border-accent">
+                        <strong className="text-accent block mb-1">
                           Our approach:
                         </strong>{" "}
                         We provide proactive monitoring, regular maintenance

@@ -18,13 +18,13 @@ const AppModernization = () => {
             modernize the application depending on each client's current and
             future business needs.
           </p>
-          <div className="mt-6 p-4 bg-blue-50 rounded-lg border-l-4 border-blue-600">
-            <h3 className="text-xl text-blue-700 font-semibold">
+          <div className="mt-6 p-4 bg-blue-50 rounded-lg border-l-4 border-accent">
+            <h3 className="text-xl text-accent font-semibold">
               Why Modernize Your Applications?
             </h3>
             <ul className="mt-2 space-y-2">
               <li className="flex items-start">
-                <FaArrowRight className="text-blue-600 mt-1.5 mr-2 flex-shrink-0" />
+                <FaArrowRight className="text-accent mt-1.5 mr-2 flex-shrink-0" />
                 <span>
                   <strong>Reduced Costs:</strong> Modernized applications
                   typically reduce operational costs by 30-50% through efficient
@@ -32,7 +32,7 @@ const AppModernization = () => {
                 </span>
               </li>
               <li className="flex items-start">
-                <FaArrowRight className="text-blue-600 mt-1.5 mr-2 flex-shrink-0" />
+                <FaArrowRight className="text-accent mt-1.5 mr-2 flex-shrink-0" />
                 <span>
                   <strong>Enhanced Security:</strong> Legacy systems often lack
                   critical security features, making them vulnerable to modern
@@ -40,7 +40,7 @@ const AppModernization = () => {
                 </span>
               </li>
               <li className="flex items-start">
-                <FaArrowRight className="text-blue-600 mt-1.5 mr-2 flex-shrink-0" />
+                <FaArrowRight className="text-accent mt-1.5 mr-2 flex-shrink-0" />
                 <span>
                   <strong>Improved Performance:</strong> Modern applications
                   deliver better performance, supporting growing workloads and
