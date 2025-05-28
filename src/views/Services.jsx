@@ -1,4 +1,4 @@
-import { useLocation } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 import { Fade, Zoom } from "react-awesome-reveal";
 import { useEffect, useState } from "react";
 import aboutBG from "../assets/aboutus-bg.jpg";
@@ -31,14 +31,26 @@ const Services = () => {
   const location = useLocation();
   const params = new URLSearchParams(location.search);
   const sname = params.get("s");
-
+  const navigate = useNavigate();
   const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
     setIsVisible(true);
   }, []);
 
-  // Enhanced service data with metrics and features
+  useEffect(() => {
+    setIsVisible(true);
+
+    if (sname) {
+      setTimeout(() => {
+        const servicesContent = document.getElementById("services-content");
+        if (servicesContent) {
+          servicesContent.scrollIntoView({ behavior: "smooth" });
+        }
+      }, 100);
+    }
+  }, [sname]);
+
   const servicesData = [
     {
       id: "appmodernization",
@@ -218,13 +230,15 @@ const Services = () => {
 
                             {/* CTA */}
                             <div className="pt-8">
-                              <a
-                                href={`?s=${service.id}`}
+                              <button
+                                onClick={() =>
+                                  navigate(`/services?s=${service.id}`)
+                                }
                                 className={`inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r ${service.gradient} text-white rounded-full font-bold hover:scale-105 transform transition-all duration-300 shadow-lg hover:shadow-2xl`}
                               >
                                 Explore {service.shortTitle}
                                 <FaArrowRight className="group-hover:translate-x-1 transition-transform" />
-                              </a>
+                              </button>
                             </div>
                           </div>
 
