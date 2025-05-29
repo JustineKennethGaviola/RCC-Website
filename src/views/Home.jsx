@@ -138,13 +138,13 @@ const Home = () => {
                     We help businesses unlock their full potential through
                     emerging and cutting-edge solutions.
                   </p>
-                  <p>
+                  <p className="text-xl">
                     Whether you're a startup or an established company, we're
                     eager to enhance your digital presence, streamline
                     operations, and improve customer engagement through
                     innovative software solutions.
                   </p>
-                  <p>
+                  <p className="text-xl">
                     We collaborate with your team to identify the best IT
                     services and solutions that create significant value for
                     your organization.
@@ -408,9 +408,6 @@ const Home = () => {
                         className="h-full object-contain group-hover:scale-110 transition-transform duration-500"
                       />
                     </div>
-                    <div className="text-center">
-                      <h3 className="font-semibold text-gray-800">MultiSys</h3>
-                    </div>
                   </div>
                 </Zoom>
 
@@ -422,11 +419,6 @@ const Home = () => {
                         alt="Yalamanchili"
                         className="h-full object-contain group-hover:scale-110 transition-transform duration-500"
                       />
-                    </div>
-                    <div className="text-center">
-                      <h3 className="font-semibold text-gray-800">
-                        Yalamanchili
-                      </h3>
                     </div>
                   </div>
                 </Zoom>
@@ -452,11 +444,6 @@ const Home = () => {
                         alt="WorldLinks"
                         className="h-full object-contain group-hover:scale-105 transition-transform duration-500"
                       />
-                    </div>
-                    <div className="text-center">
-                      <h3 className="text-xl font-bold text-accent mb-2">
-                        WorldLinks
-                      </h3>
                     </div>
                   </div>
                 </Zoom>
