@@ -70,7 +70,7 @@ const AboutUs = () => {
                 </h1>
                 <p className="text-gray-600 text-xl max-w-3xl mx-auto leading-relaxed">
                   Leading the future of digital transformation with innovation,
-                  expertise, and dedication
+                  expertise, and dedication.
                 </p>
               </div>
             </Fade>
@@ -179,7 +179,7 @@ const AboutUs = () => {
                     <div className="absolute -top-8 -left-8 w-16 h-16 border-l-4 border-t-4 border-orange-400/50 rounded-tl-3xl"></div>
                     <div className="mb-8">
                       <h1 className="text-4xl lg:text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-yellow-400 pb-4">
-                        Mission
+                        Vision
                       </h1>
                       <div className="flex items-center space-x-3">
                         <div className="w-12 h-1 bg-orange-400 rounded-full"></div>
@@ -187,14 +187,13 @@ const AboutUs = () => {
                         <div className="w-6 h-1 bg-orange-400/60 rounded-full"></div>
                       </div>
                     </div>
-                    <p className="text-lg lg:text-xl text-white/95 leading-relaxed font-light">
-                      Our mission is to empower businesses and individuals by
-                      delivering scalable, cutting-edge technology solutions
-                      that drive innovation, transform industries, and create
-                      lasting value. We are committed to making a positive
-                      impact on our people, clients, communities, and the
-                      environment, fostering a future where technology enables
-                      sustainable growth and meaningful progress.
+                    <p className="text-lg lg:text-xl text-white/95 leading-relaxed font-light text-justify">
+                      We aspire to become one of the global leaders in digital
+                      transformation, recognized for pioneering innovative
+                      solutions that empower businesses to thrive in a rapidly
+                      evolving world where technology drives economic growth,
+                      fosters positive societal change, and contributes to a
+                      sustainable society.
                     </p>
                     <div className="absolute -bottom-8 -right-8 w-16 h-16 border-r-4 border-b-4 border-orange-400/50 rounded-br-3xl"></div>
                   </div>
@@ -205,7 +204,7 @@ const AboutUs = () => {
                     <div className="absolute -top-8 -left-8 w-16 h-16 border-l-4 border-t-4 border-cyan-400/50 rounded-tl-3xl"></div>
                     <div className="mb-8">
                       <h1 className="text-4xl lg:text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-400 pb-4">
-                        Vision
+                        Mission
                       </h1>
                       <div className="flex items-center space-x-3">
                         <div className="w-12 h-1 bg-cyan-400 rounded-full"></div>
@@ -213,13 +212,14 @@ const AboutUs = () => {
                         <div className="w-6 h-1 bg-cyan-400/60 rounded-full"></div>
                       </div>
                     </div>
-                    <p className="text-lg lg:text-xl text-white/95 leading-relaxed font-light">
-                      We aspire to become one of the global leaders in digital
-                      transformation, recognized for pioneering innovative
-                      solutions that empower businesses to thrive in a rapidly
-                      evolving world where technology drives economic growth,
-                      fosters positive societal change, and contributes to a
-                      sustainable society.
+                    <p className="text-lg lg:text-xl text-white/95 leading-relaxed font-light text-justify">
+                      Our mission is to empower businesses and individuals by
+                      delivering scalable, cutting-edge technology solutions
+                      that drive innovation, transform industries, and create
+                      lasting value. We are committed to making a positive
+                      impact on our people, clients, communities, and the
+                      environment, fostering a future where technology enables
+                      sustainable growth and meaningful progress.
                     </p>
                     <div className="absolute -bottom-8 -right-8 w-16 h-16 border-r-4 border-b-4 border-cyan-400/50 rounded-br-3xl"></div>
                   </div>
@@ -241,7 +241,7 @@ const AboutUs = () => {
                 </h1>
                 <p className="text-gray-600 text-xl max-w-3xl mx-auto leading-relaxed">
                   The fundamental principles that guide our work and define our
-                  commitment to excellence
+                  commitment to excellence.
                 </p>
               </div>
             </Fade>
@@ -259,7 +259,7 @@ const AboutUs = () => {
                   </div>
                   <div className="lg:w-3/4">
                     <div className="h-1 w-full bg-gradient-to-r from-blue-500/20 to-cyan-500/20 rounded-full mb-6"></div>
-                    <p className="text-lg lg:text-xl text-gray-700 leading-relaxed text-center lg:text-left">
+                    <p className="text-lg lg:text-xl text-gray-700 leading-relaxed text-justify lg:text-justify">
                       We take ownership of responsibilities, honoring
                       commitments, and delivering results and value with
                       integrity and dedication. Our accountability drives us to
@@ -282,7 +282,7 @@ const AboutUs = () => {
                   </div>
                   <div className="lg:w-3/4">
                     <div className="h-1 w-full bg-gradient-to-r from-orange-500/20 to-orange-500/20 rounded-full mb-6"></div>
-                    <p className="text-lg lg:text-xl text-gray-700 leading-relaxed text-center lg:text-right">
+                    <p className="text-lg lg:text-xl text-gray-700 leading-relaxed text-justify lg:text-justify">
                       Our team embraces teamwork and open communication to
                       achieve common goals. We believe that the best solutions
                       emerge when diverse perspectives unite toward a shared
@@ -304,7 +304,7 @@ const AboutUs = () => {
                   </div>
                   <div className="lg:w-3/4">
                     <div className="h-1 w-full bg-gradient-to-r from-blue-500/20 to-blue-500/20 rounded-full mb-6"></div>
-                    <p className="text-lg lg:text-xl text-gray-700 leading-relaxed text-center lg:text-left">
+                    <p className="text-lg lg:text-xl text-gray-700 leading-relaxed text-justify lg:text-justify">
                       We are committed to continuously improving to surpass
                       expectations and set the bar for quality and innovation.
                       Excellence is not just our goal, it's our standard in
@@ -326,7 +326,7 @@ const AboutUs = () => {
                   </div>
                   <div className="lg:w-3/4">
                     <div className="h-1 w-full bg-gradient-to-r from-orange-500/20 to-orange-500/20 rounded-full mb-6"></div>
-                    <p className="text-lg lg:text-xl text-gray-700 leading-relaxed text-center lg:text-right">
+                    <p className="text-lg lg:text-xl text-gray-700 leading-relaxed text-justify lg:text-justify">
                       We integrate sustainable practices into everyday
                       operations to become a socially and environmentally
                       responsible organization, ensuring our growth contributes
@@ -354,7 +354,7 @@ const AboutUs = () => {
                   ?
                 </h1>
 
-                <p className="text-justify lg:text-center lg:px-20 leading-relaxed text-white/90 text-lg lg:text-xl max-w-4xl">
+                <p className="text-justify lg:text-justify lg:px-20 leading-relaxed text-white/90 text-lg lg:text-xl max-w-4xl">
                   RCC Colab Solutions' competitive edge in the IT and Consulting
                   Services industry lies in our capability to deliver integrated
                   innovation and seamless solutions to our clients. Our

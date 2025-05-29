@@ -111,7 +111,7 @@ const RoboticsProcessAutomation = () => {
                 <h1 className="text-xl uppercase text-accent font-bold pb-4 border-b border-gray-200">
                   {title}
                 </h1>
-                <ul className="flex flex-col list-disc pl-6 space-y-4 mt-4">
+                <ul className="flex flex-col list-disc pl-6 space-y-4 mt-4 text-justify">
                   {content.map(({ title, content }, j) => {
                     return (
                       <li
@@ -136,7 +136,7 @@ const RoboticsProcessAutomation = () => {
             Training and Change Management
           </h1>
           <div className="bg-white p-6 rounded-lg shadow-md">
-            <p className="text-gray-700 mb-4">
+            <p className="text-gray-700 mb-4 text-justify">
               Successful RPA implementation requires more than just
               technology—it requires effectively managing the human side of
               change. Our comprehensive training and change management services
@@ -162,7 +162,7 @@ const RoboticsProcessAutomation = () => {
                     </div>
                     <div>
                       <div className="font-semibold text-gray-800">{title}</div>
-                      <div className="text-gray-600 text-sm mt-1">
+                      <div className="text-gray-600 text-sm mt-1 text-justify">
                         {content}
                       </div>
                     </div>
@@ -197,9 +197,7 @@ const RoboticsProcessAutomation = () => {
                 Streamlined insurance claims processing, reducing manual effort
                 by 85% and errors by 99%.
               </p>
-              <div className="text-accent font-semibold">
-                68% Cost Savings
-              </div>
+              <div className="text-accent font-semibold">68% Cost Savings</div>
             </div>
             <div className="bg-white p-5 rounded-lg shadow-sm border-l-4 border-accent">
               <h3 className="font-semibold text-gray-800 mb-3">

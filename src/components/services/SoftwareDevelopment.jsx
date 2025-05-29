@@ -565,7 +565,7 @@ const SoftwareDevelopment = () => {
                     <h1 className="text-xl uppercase text-orange-600 font-semibold pb-2">
                       {title}
                     </h1>
-                    <p className="text-md text-gray-700 leading-relaxed">
+                    <p className="text-md text-gray-700 leading-relaxed text-justify">
                       {content}
                     </p>
 

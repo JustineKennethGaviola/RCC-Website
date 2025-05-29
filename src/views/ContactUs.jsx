@@ -82,8 +82,8 @@ const ContactUs = () => {
       </div>
 
       {/* Enhanced Main Content Section */}
-      <div 
-        id="contact-content" 
+      <div
+        id="contact-content"
         className="w-full bg-gradient-to-br from-gray-50 via-white to-gray-50 relative overflow-hidden"
       >
         {/* Subtle background decorations */}
@@ -100,7 +100,8 @@ const ContactUs = () => {
                 Let's Connect
               </h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-                Ready to transform your business? We're here to help you every step of the way.
+                Ready to transform your business? We're here to help you every
+                step of the way.
               </p>
             </div>
           </Fade>
@@ -113,9 +114,10 @@ const ContactUs = () => {
                   <h3 className="text-2xl lg:text-3xl font-bold text-accent mb-6">
                     Get in Touch
                   </h3>
-                  <p className="text-lg text-gray-600 leading-relaxed">
-                    Whether you're looking for help with your next big project or want to join our team, 
-                    we are ready to answer all your questions.
+                  <p className="text-lg text-gray-600 leading-relaxed text-justify">
+                    Whether you're looking for help with your next big project
+                    or want to join our team, we are ready to answer all your
+                    questions.
                   </p>
                 </div>
 
@@ -129,9 +131,7 @@ const ContactUs = () => {
                       <h4 className="text-xl font-semibold text-gray-800 mb-2">
                         Phone Number
                       </h4>
-                      <p className="text-gray-600 text-lg">
-                        +632 8651 6572
-                      </p>
+                      <p className="text-gray-600 text-lg">+632 8651 6572</p>
                     </div>
                   </div>
 
@@ -158,7 +158,8 @@ const ContactUs = () => {
                         Office Address
                       </h4>
                       <p className="text-gray-600 text-lg leading-relaxed">
-                        7/F Ascott Makati Glorietta 4, Ayala Center San Lorenzo, Makati City
+                        7/F Ascott Makati Glorietta 4, Ayala Center San Lorenzo,
+                        Makati City
                       </p>
                     </div>
                   </div>
@@ -172,7 +173,7 @@ const ContactUs = () => {
                         Office Hours
                       </h4>
                       <p className="text-gray-600 text-lg">
-                        Monday to Friday (8:00AM - 5:00PM)
+                        Monday to Friday (8:00AM - 7:00PM)
                       </p>
                     </div>
                   </div>
@@ -200,7 +201,8 @@ const ContactUs = () => {
                         Send us a Message
                       </h3>
                       <p className="text-gray-600 text-lg leading-relaxed">
-                        Fill out the form below and we'll get back to you as soon as possible.
+                        Fill out the form below and we'll get back to you as
+                        soon as possible.
                       </p>
                     </div>
 

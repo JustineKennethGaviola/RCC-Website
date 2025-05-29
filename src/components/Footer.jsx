@@ -5,7 +5,7 @@ import {
   MdLocationOn,
 } from "react-icons/md";
 import { PiGlobe } from "react-icons/pi";
-import { FaLinkedin, FaFacebook } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { useState, useEffect } from "react";
 import logo from "../assets/RCCLogo-White.svg";
@@ -59,7 +59,7 @@ const Footer = () => {
               </h1>
             </div>
           </Link>
-          <p className="text-sm leading-6 pr-12 mb-6">
+          <p className="text-sm leading-6 pr-12 mb-6 text-justify">
             Your trusted partner for personalized IT software and consulting
             solutions, delivering excellence in innovation, quality, and
             service.
@@ -170,15 +170,6 @@ const Footer = () => {
               >
                 <FaLinkedin size={28} />
               </a>
-              <a
-                href="https://www.facebook.com/profile.php?id=61567286702449"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-2xl leading-7 hover:text-cyan-400 cursor-pointer transition-all duration-300 hover:scale-110 p-2 hover:bg-white/10 rounded-full"
-                aria-label="Visit our Facebook page"
-              >
-                <FaFacebook size={28} />
-              </a>
             </div>
           </div>
         </div>
@@ -225,7 +216,7 @@ const Footer = () => {
               <div className="text-md">
                 <div className="font-medium">Business Hours</div>
                 <div className="text-white/70 text-sm">
-                  Mon - Fri: 8:00 AM - 5:00 PM
+                  Mon - Fri: 8:00 AM - 7:00 PM
                 </div>
               </div>
             </li>

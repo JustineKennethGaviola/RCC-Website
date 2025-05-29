@@ -1,7 +1,7 @@
 // ITStrategyConsulting.jsx
 import LGContainer from "../LGContainer";
 import { ITStrategyAndConsulting } from "../../utils/servicesData";
-import { FaChartLine, FaLightbulb, FaRocket } from "react-icons/fa";
+import { FaChartLine, FaLightbulb } from "react-icons/fa";
 
 const ITStrategyConsulting = () => {
   return (

@@ -176,7 +176,7 @@ const Services = () => {
                   </h2>
                   <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
                     Comprehensive technology solutions designed to accelerate
-                    your digital transformation journey
+                    your digital transformation journey.
                   </p>
                 </Fade>
               </div>
@@ -209,7 +209,7 @@ const Services = () => {
                               </div>
                             </div>
 
-                            <p className="text-xl text-gray-600 leading-relaxed">
+                            <p className="text-xl text-gray-600 leading-relaxed text-justify">
                               {service.detailedDescription}
                             </p>
 

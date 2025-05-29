@@ -83,7 +83,7 @@ const Home = () => {
               </Fade>
 
               <Fade direction="up" delay={200}>
-                <p className="mt-8 max-w-screen-md mx-auto text-lg lg:text-xl leading-8 text-white/90 text-center px-4">
+                <p className="mt-8 max-w-screen-md mx-auto text-lg lg:text-xl leading-8 text-white/90 text-justify px-4">
                   RCC Colab Solutions collaborates with you to turn innovative
                   ideas into scalable software solutions. Combining cutting-edge
                   technology with deep industry expertise to drive efficiency
@@ -128,7 +128,7 @@ const Home = () => {
 
             <div className="grid lg:grid-cols-2 gap-12 items-center max-w-6xl">
               <Fade direction="left" triggerOnce>
-                <div className="space-y-6 text-gray-700 text-lg leading-relaxed">
+                <div className="space-y-6 text-gray-700 text-lg leading-relaxed text-justify">
                   <p className="text-xl">
                     <span className="text-accent font-bold">
                       RCC Colab Solutions Inc.
@@ -216,7 +216,7 @@ const Home = () => {
                 </h1>
                 <p className="text-xl text-white/80 max-w-2xl mx-auto">
                   Comprehensive solutions designed to transform your business
-                  and drive innovation
+                  and drive innovation.
                 </p>
               </div>
             </Fade>
@@ -235,7 +235,7 @@ const Home = () => {
                     <h2 className="text-2xl font-bold text-white mb-4 group-hover:text-cyan-300 transition-colors">
                       Application Modernization
                     </h2>
-                    <p className="text-white/80 text-lg leading-relaxed mb-6">
+                    <p className="text-white/80 text-lg leading-relaxed mb-6 text-justify">
                       Transform legacy applications into modern, cloud-ready
                       solutions that drive innovation and performance.
                     </p>
@@ -261,7 +261,7 @@ const Home = () => {
                     <h2 className="text-2xl font-bold text-white mb-4 group-hover:text-cyan-300 transition-colors">
                       Software Development
                     </h2>
-                    <p className="text-white/80 text-lg leading-relaxed mb-6">
+                    <p className="text-white/80 text-lg leading-relaxed mb-6 text-justify">
                       Custom software solutions tailored to your unique business
                       requirements and challenges.
                     </p>
@@ -287,7 +287,7 @@ const Home = () => {
                     <h2 className="text-2xl font-bold text-white mb-4 group-hover:text-cyan-300 transition-colors">
                       IT Strategy & Consulting
                     </h2>
-                    <p className="text-white/80 text-lg leading-relaxed mb-6">
+                    <p className="text-white/80 text-lg leading-relaxed mb-6 text-justify">
                       Strategic technology planning and roadmaps aligned with
                       your business objectives and growth plans.
                     </p>
@@ -315,7 +315,7 @@ const Home = () => {
                     <h2 className="text-2xl font-bold text-white mb-4 group-hover:text-cyan-300 transition-colors">
                       Robotics Process Automation
                     </h2>
-                    <p className="text-white/80 text-lg leading-relaxed mb-6">
+                    <p className="text-white/80 text-lg leading-relaxed mb-6 text-justify">
                       Automate repetitive tasks to boost efficiency, accuracy,
                       and free up valuable human resources.
                     </p>
@@ -341,7 +341,7 @@ const Home = () => {
                     <h2 className="text-2xl font-bold text-white mb-4 group-hover:text-cyan-300 transition-colors">
                       Staff Augmentation
                     </h2>
-                    <p className="text-white/80 text-lg leading-relaxed mb-6">
+                    <p className="text-white/80 text-lg leading-relaxed mb-6 text-justify">
                       Flexible talent solutions to scale your team with
                       specialized skills when you need them most.
                     </p>
@@ -367,7 +367,7 @@ const Home = () => {
                     <h2 className="text-2xl font-bold text-white mb-4 group-hover:text-cyan-300 transition-colors">
                       Support & Maintenance
                     </h2>
-                    <p className="text-white/80 text-lg leading-relaxed mb-6">
+                    <p className="text-white/80 text-lg leading-relaxed mb-6 text-justify">
                       Comprehensive support services to ensure your IT systems
                       run smoothly and efficiently.
                     </p>
@@ -409,12 +409,7 @@ const Home = () => {
                       />
                     </div>
                     <div className="text-center">
-                      <h3 className="font-semibold text-gray-800">
-                        MultiSys Technologies
-                      </h3>
-                      <p className="text-gray-600 text-sm">
-                        Technology Partner
-                      </p>
+                      <h3 className="font-semibold text-gray-800">MultiSys</h3>
                     </div>
                   </div>
                 </Zoom>
@@ -432,7 +427,6 @@ const Home = () => {
                       <h3 className="font-semibold text-gray-800">
                         Yalamanchili
                       </h3>
-                      <p className="text-gray-600 text-sm">Strategic Client</p>
                     </div>
                   </div>
                 </Zoom>
@@ -463,9 +457,6 @@ const Home = () => {
                       <h3 className="text-xl font-bold text-accent mb-2">
                         WorldLinks
                       </h3>
-                      <p className="text-gray-600">
-                        Global Technology Alliance
-                      </p>
                     </div>
                   </div>
                 </Zoom>
@@ -491,14 +482,6 @@ const Home = () => {
                         alt="DPO Certificate"
                         className="h-full object-contain group-hover:scale-105 transition-transform duration-500"
                       />
-                    </div>
-                    <div className="text-center">
-                      <h3 className="text-lg font-semibold text-accent">
-                        Data Protection Officer
-                      </h3>
-                      <p className="text-gray-600 text-sm">
-                        Certified Compliance
-                      </p>
                     </div>
                   </div>
                 </Zoom>

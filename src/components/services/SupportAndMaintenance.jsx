@@ -1,8 +1,6 @@
-// SupportAndMaintenance.jsx
-import React from "react";
 import LGContainer from "../LGContainer";
 import { supportAndMaintenance } from "../../utils/servicesData";
-import { FaTools, FaShieldAlt, FaChartLine, FaClock } from "react-icons/fa";
+import { FaTools, FaShieldAlt, FaChartLine } from "react-icons/fa";
 
 const SupportAndMaintenance = () => {
   const { services, whyChoose, benefits, industriesWeServe } =
@@ -69,7 +67,7 @@ const SupportAndMaintenance = () => {
                 <h1 className="text-lg uppercase text-accent font-bold pb-2 mb-4 border-b border-gray-200">
                   {title}
                 </h1>
-                <ul className="flex flex-col list-disc pl-6 space-y-3">
+                <ul className="flex flex-col list-disc pl-6 space-y-3 text-justify">
                   {content.map(({ title, content }, j) => {
                     return (
                       <li
@@ -105,7 +103,9 @@ const SupportAndMaintenance = () => {
                     {i + 1}
                   </div>
                   <h3 className="font-semibold text-gray-800 mb-2">{title}</h3>
-                  <p className="text-sm text-gray-600">{content}</p>
+                  <p className="text-sm text-gray-600 text-justify">
+                    {content}
+                  </p>
                 </div>
               );
             })}
