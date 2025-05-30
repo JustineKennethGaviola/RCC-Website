@@ -4,15 +4,20 @@ import {
   MdOutlinePhone,
   MdLocationOn,
 } from "react-icons/md";
+import { toast } from "react-hot-toast";
 import { PiGlobe } from "react-icons/pi";
 import { FaLinkedin } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import logo from "../assets/RCCLogo-White.svg";
 import { FaChevronUp } from "react-icons/fa";
+import sendEmail from "../utils/sendEmail";
 
 const Footer = () => {
   const [showScrollTop, setShowScrollTop] = useState(false);
+  const [email, setEmail] = useState("");
+  const [isSubscribing, setIsSubscribing] = useState(false);
+  const formRef = useRef();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -28,6 +33,32 @@ const Footer = () => {
       top: 0,
       behavior: "smooth",
     });
+  };
+
+  const handleNewsletterSubmit = async (e) => {
+    e.preventDefault();
+
+    if (!email.trim()) {
+      toast.error("Please enter a valid email address");
+      return;
+    }
+
+    setIsSubscribing(true);
+
+    try {
+      // Send newsletter subscription using your existing sendEmail utility
+      if (formRef.current) {
+        await sendEmail(formRef.current);
+      }
+
+      toast.success("Thank you for subscribing to our newsletter!");
+      setEmail(""); // Clear the input
+    } catch (error) {
+      console.error("Newsletter subscription error:", error);
+      toast.error("Something went wrong. Please try again.");
+    } finally {
+      setIsSubscribing(false);
+    }
   };
 
   return (
@@ -68,17 +99,51 @@ const Footer = () => {
           {/* Newsletter Signup */}
           <div className="mt-6">
             <h3 className="text-md font-semibold mb-3">Stay Updated</h3>
-            <div className="flex flex-col sm:flex-row gap-2">
+            <form
+              ref={formRef}
+              onSubmit={handleNewsletterSubmit}
+              className="flex flex-col sm:flex-row gap-2"
+            >
               <input
                 type="email"
+                name="email"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
                 placeholder="Enter your email"
                 className="flex-1 px-3 py-2 text-gray-900 rounded-md text-sm focus:outline-none focus:ring-2 focus:ring-cyan-500"
                 aria-label="Email for newsletter"
+                disabled={isSubscribing}
+                required
               />
-              <button className="px-4 py-2 bg-cyan-500 hover:bg-cyan-600 text-white rounded-md text-sm font-medium transition-colors duration-300 whitespace-nowrap">
-                Subscribe
+              {/* Hidden fields to match your contact form structure */}
+              <input type="hidden" name="name" value="Newsletter Subscriber" />
+              <input
+                type="hidden"
+                name="company"
+                value="Newsletter Subscription"
+              />
+              <input type="hidden" name="contactNumber" value="N/A" />
+              <input
+                type="hidden"
+                name="message"
+                value="Newsletter subscription request"
+              />
+
+              <button
+                type="submit"
+                disabled={isSubscribing}
+                className="px-4 py-2 bg-cyan-500 hover:bg-cyan-600 text-white rounded-md text-sm font-medium transition-colors duration-300 whitespace-nowrap disabled:opacity-50 disabled:cursor-not-allowed"
+              >
+                {isSubscribing ? (
+                  <div className="flex items-center gap-2">
+                    <div className="w-4 h-4 border-2 border-white/30 border-t-white rounded-full animate-spin"></div>
+                    Subscribing...
+                  </div>
+                ) : (
+                  "Subscribe"
+                )}
               </button>
-            </div>
+            </form>
           </div>
         </div>
 

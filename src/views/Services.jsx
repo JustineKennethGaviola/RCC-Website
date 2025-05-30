@@ -281,7 +281,10 @@ const Services = () => {
                           Let's discuss how our services can help you achieve
                           your goals and drive innovation.
                         </p>
-                        <button className="bg-white text-orange-600 px-8 py-4 rounded-full font-bold hover:shadow-lg transform hover:scale-105 transition-all duration-300">
+                        <button
+                          className="bg-white text-orange-600 px-8 py-4 rounded-full font-bold hover:shadow-lg transform hover:scale-105 transition-all duration-300"
+                          onClick={() => navigate("/contactus")}
+                        >
                           Get Started Today
                         </button>
                       </div>
